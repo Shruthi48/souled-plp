@@ -17,7 +17,7 @@ REACT BOOTSTRAP
 
 <h3>enhancements to be</h3>
 1. responsiveness ( mobile first )<br></br>
-2. optimized image fetch - can send over the device information using user agent ( width, display ratio) and get the perfect sized image from the server. Imagekit would be the best tool to use.<br></br>
+2. optimized image fetch, lazy loading - can send over the device information using user agent ( width, display ratio) and get the perfect sized image from the server. Imagekit would be the best tool to use.<br></br>
 3. SPA - optimised resource fetch.<br></br>
 4. optimised filter , for now it only works with themes filtering.<br></br>
 5. minify and uglify and compress the code to reduce the size of resource sent.<br></br>
