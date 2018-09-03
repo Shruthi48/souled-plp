@@ -7,7 +7,7 @@ REDUX
 REACT BOOTSTRAP
 
 <h3>Instructions </h3>
-1. clone https://github.com/Shruthi48/souled-plp.git<br></br>
+1. git clone https://github.com/Shruthi48/souled-plp.git<br></br>
 2. cd souled-plp<br></br>
 3. cd mock-souled-store<br></br>
 4. yarn install<br></br>
