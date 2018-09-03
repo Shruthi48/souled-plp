@@ -1,4 +1,4 @@
-# souled-plp
+# Technology Stack
 Javascript<br></br>
 HTML<br></br>
 CSS/ CSS animations<br></br>
