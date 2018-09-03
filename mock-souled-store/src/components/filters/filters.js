@@ -29,7 +29,7 @@ class Filters extends React.Component {
     getCategoriesCheckbox = (categories) => {
        let categoriesList = categories.map( item => {
            return (
-            <Checkbox onClick={ e => this.handleThemeSelect(e)} value={item}>
+            <Checkbox name="checkbox" onClick={ e => this.handleThemeSelect(e)} value={item}>
               {item}
             </Checkbox>
            )
@@ -113,6 +113,12 @@ class Filters extends React.Component {
     handleFiltersSubmit = e => {
       this.props.filterProducts(this.state.size,this.state.themes);
     }
+    handleFiltersClear = e => {
+        for(let i=0 ; i < document.getElementsByName("checkbox").length; i++) {
+            document.getElementsByName("checkbox")[i].checked = false;
+        }
+        this.props.filterProducts(this.state.size, []);
+    }
 
     render() {
         const sizesContent = this.getSizeDropDownContent();
@@ -137,7 +143,7 @@ class Filters extends React.Component {
                       className="form-submit-button1"
                       onClick={e => this.handleFiltersSubmit(e)}
               > APPLY </Button>
-              <Button bsStyle="custom" > CLEAR </Button>
+              <Button bsStyle="custom" onClick={e => this.handleFiltersClear(e)}> CLEAR </Button>
             </div>
             </div>
         )

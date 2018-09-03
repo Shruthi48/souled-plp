@@ -3,7 +3,6 @@ import './product-list.css';
 
 export default class Product extends React.Component {
     hover = () => {
-        console.log('hovered');
         const element = document.getElementById(this.props.productId)
         element.setAttribute('src', this.props.productImageZoomed);
     }
