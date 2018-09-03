@@ -1,10 +1,10 @@
 # souled-plp
-Javascript
-HTML
-CSS/ CSS animations
-REACT
-REDUX
-REACT BOOTSTRAP
+Javascript<br></br>
+HTML<br></br>
+CSS/ CSS animations<br></br>
+REACT<br></br>
+REDUX<br></br>
+REACT BOOTSTRAP<br></br>
 
 <h3>Instructions </h3>
 1. git clone https://github.com/Shruthi48/souled-plp.git<br></br>
