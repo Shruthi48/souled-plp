@@ -1,0 +1,24 @@
+.filters-container {
+    margin-left: 80px;
+    grid-column: 1/4;
+    margin-top: 40px;
+    position: sticky;
+    width: 200px;
+    top: 0;
+}
+.collapsible-panel {
+    border-bottom: 1px solid gray;
+}
+
+.size-button {
+    margin: 4px;
+    font-size: 10px;
+}
+
+.form-submit-button {
+    margin-top: 30px;
+}
+
+.form-submit-button1{
+    margin-right: 20px;
+}

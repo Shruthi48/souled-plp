@@ -1,0 +1,31 @@
+.nav-container {
+    box-shadow: 0 2px 3px rgba(0,0,0,.2);
+    position: relative;
+    z-index: 99;
+    height: 80px;
+}
+
+.track-order {
+    background-color: #ed2d2f;
+    height: 25px;
+}
+
+ul {
+    list-style: none
+}
+
+.nav-list {
+   color: gray;
+   display: inline-flex;
+   margin-left: 130px;
+   margin-top: 15px;
+}
+
+.nav-list-item {
+    justify-content: space-around;
+    margin-left: 50px;
+    color: #58595b;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}

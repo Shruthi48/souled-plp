@@ -1,0 +1,4 @@
+.carousel-container {
+    grid-column: 1/6;
+    margin-bottom: 20px;
+}
